@@ -1,0 +1,41 @@
+Scrieti un program care citeste pe matricea de adiacenta un graf neorientat, care afiseaza gradul fiecarui nod si
+cate muchii ii mai trebuie adaugate grafului ca acesta sa fie complet
+
+Graf Conex:
+	Un graf G dat pe multimea nodurilor X si a muchiilor U este conex daca intre oricare 2 noduri A si B
+apartinand X exista un lant care sa le lege.
+	Se numeste componenta conexa a grafului G un subgraf al grafului G pentru care nu exista un lant care sa
+uneasca unul dintre cele N subgrafuri ale grafului G.
+! Orice nod izolat dintr-un graf reprezinta o componenta conexa a acelui graf.
+
+Arbori:
+	* un arbore este un graf conex
+	* nodurile sunt asezate pe niveluri
+	* nodul radacina e plasat pe nivelul 0
+	* un nod A este descendent al unui alt nod B, daca este situat pe un nivel mai mare decat B, si exista un
+lant care le uneste, fara a trece prin radacina
+	* un nod A este este fiu (descendent direct) al unui nod B daca este situat pe nivelul imediat urmator
+nodului B si exista muchia A - B
+	* doua noduri sunt frati daca au acelasi parinte
+	* un nod este frunza daca nu are nici-un fiu
+	* muchiile intotdeauna sunt egale cu numarul de noduri - 1
+	* 
+
+0 ---- 1 --- 4 --- 11 /-- 19
+  |\    \___ 5 --- 12 --- 20 --- 26
+  | \         \__ 13
+  |  \ 2 --- 6        /-- 21
+  |      \__ 7 --- 14 --- 22
+  |       \_ 8 --- 15
+  |            \__ 16 --- 23
+  \___ 3 ---- 9 -- 17
+         \__ 10 \_ 18 --- 24
+                      \__ 25
+
+Arbori binari:
+	* fiecare nod are cel mult 2 fii
+	* 
+
+Care este numarul minim de noduri pe care il poate contine un graf neorientat cu 50 de muchii, in care 15 noduri
+sunt izolate?
+Care este numarul maxim de noduri izolate pe care le poate aveaun graf neorientat cu 8 noduri si 12 muchii?
