@@ -39,3 +39,4 @@ Arbori binari:
 Care este numarul minim de noduri pe care il poate contine un graf neorientat cu 50 de muchii, in care 15 noduri
 sunt izolate?
 Care este numarul maxim de noduri izolate pe care le poate aveaun graf neorientat cu 8 noduri si 12 muchii?
+
